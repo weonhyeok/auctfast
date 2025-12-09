@@ -1,0 +1,21 @@
+pip install fastapi uvicorn pydantic
+
+디렉토리 이동
+cd D:\gt\fast\auctfast\backend\auction-lab-api
+
+
+pip install uvicorn[standard]
+
+FAST API 서버 실행
+uvicorn app.main:app --reload
+=> python -m uvicorn app.main:app --reload
+
+
+성공하면 다음 메세지: 
+Uvicorn running on http://127.0.0.1:8000
+
+backend 동작 체크
+브라우저에서 URL: http://127.0.0.1:8000/docs
+=> **Swagger UI (API 문서)**가 뜨면 백엔드 정상 동작
+
+

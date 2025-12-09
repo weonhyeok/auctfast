@@ -1,0 +1,9 @@
+-- Memo
+PS D:\gt\fast\auctfast> cd frontend
+PS D:\gt\fast\auctfast\frontend> npx create-next-app@latest auction-web-next
+
+npx tailwindcss init -p
+
+PS D:\gt\fast\auctfast> cd D:\gt\fast\auctfast\frontend\auction-web-next
+PS D:\gt\fast\auctfast\frontend\auction-web-next> npm run dev
+

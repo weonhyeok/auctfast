@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# FastAPI venv
+venv/
+.env
+
+# Node artifacts
+node_modules/
+.next/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
